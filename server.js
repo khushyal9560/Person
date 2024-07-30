@@ -3,7 +3,7 @@ const app = express();
 const db = require("./db");
 
 const bodyparser = require("body-parser");
-app.use(bodyparser.json()); // req.body stored post requestn
+app.use(bodyparser.json()); // req.body stored post request
 
 app.get("/", function (req, res) {
   return res.send("Welcome to my server ...");
