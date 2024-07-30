@@ -15,4 +15,5 @@ const personRoutes = require("./Routes/PersonRoutes");
 //Use the routers
 app.use("/person", personRoutes);
 
+//Start Server
 app.listen(8000, () => console.log("Server started.."));
